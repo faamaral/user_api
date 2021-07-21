@@ -1,15 +1,18 @@
 from flask import Flask
-from flask_restful import Resource, Api
 
-app = Flask(__name__)
+from user_api import views
+from user_api import config
 
-api = Api(app)
 
-class HelloWorld(Resource):
-    def get(self):
-        return {'hello':'world'}
 
-api.add_resource(HelloWorld, '/')
+def create_app():
+    app = Flask(__name__)
+    app.config.from_object(config.Development)
+
+    views.init_app(app)
+
+    return app
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app_api = create_app()
+    app_api.run(debug=True)
