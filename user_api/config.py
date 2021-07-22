@@ -1,14 +1,11 @@
-class Config:
-        SECRET_KEY="testetesteteste"
+import os
 
-class Development(Config):
-    FLASK_ENV='development'
-    FLASK_DEBUG=1
+key = os.urandom(24)
 
-class Prodution(Config):
-    FLASK_ENV='production'
-    FLASK_DEBUG=0
+SECRET_KEY=key
+FLASK_ENV='production'
+FLASK_DEBUG=False
 
-class Testing(Config):
-    FLASK_ENV='testing'
+
+
 

@@ -10,8 +10,8 @@ api_bp = Blueprint('api', __name__)
 api = Api(api_bp)
 
 users = file_rw.read_json('user_api/users.json')
-print(users)
-print(type(users))
+#print(users)
+#print(type(users))
 
 class ListUser(Resource):
     def get(self):
