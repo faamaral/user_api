@@ -1,3 +1,12 @@
+'''
+Descricao :
+	Instancia da aplicação
+Aluno :
+	Fabiano Amaral Alves
+Data :
+	22 / 07 / 2021
+'''
+
 from flask import Flask
 
 from user_api import views

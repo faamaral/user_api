@@ -1,3 +1,12 @@
+''' 
+Descricao :
+	Arquivo responsavel pela configurações globais da aplicação
+Aluno :
+	Fabiano Amaral Alves
+Data :
+	22 / 07 / 2021
+'''
+
 import os
 
 key = os.urandom(24)

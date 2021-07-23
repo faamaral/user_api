@@ -1,3 +1,12 @@
+''' 
+Descricao :
+	Arquivo responsavel por manipular os arquivos json da aplicação
+Aluno :
+	Fabiano Amaral Alves
+Data :
+	22 / 07 / 2021
+'''
+
 import json
 import os, sys
 

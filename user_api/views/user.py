@@ -1,3 +1,12 @@
+''' 
+Descricao :
+	Arquivo responsavel por criar as rotas da api e funcionamento das requisições
+Aluno :
+	Fabiano Amaral Alves
+Data :
+	22 / 07 / 2021
+'''
+
 import os
 import json
 

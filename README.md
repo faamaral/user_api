@@ -20,7 +20,7 @@
 
 1. Faça clone do projeto para a sua maquina.
     ```zsh
-        $ git clone https://github.com/faamaral/user_api.git
+    git clone https://github.com/faamaral/user_api.git
     ```
 
 2. Com o python instalado em sua maquina, entre no diretorio do projeto clonado e crie um ambiente virtual para o projeto.
@@ -28,49 +28,49 @@
     - Instale o virtualenv caso não o tenha instalado.
 
         ```zsh
-            $ sudo apt install python3-venv
+        sudo apt install python3-venv
         ```
     - Crie o ambiente virtual.
 
         ```zsh
-            python3 -m venv nome-do-seu-ambiente-virtual
+        python3 -m venv nome-do-seu-ambiente-virtual
         ```
 
     - Ative o ambiente virtual.
 
         ```zsh
-            source nome-do-seu-ambiente-virtual/bin/activate
+        source nome-do-seu-ambiente-virtual/bin/activate
         ```
     > No windows siga esses passos.
     - Instale o virtualenv caso não o tenha instalado.
 
         ```
-            pip install virtualenv
+        pip install virtualenv
         ```
     - Crie o seu ambiente virtual.
         ```
-            virtualenv nome_do_ambiente_virtual
+        virtualenv nome_do_ambiente_virtual
         ```
     - Ative o ambiente virtual.
 
         ```
-            nome_do_ambiente_virtual/Scripts/Activate
+        nome_do_ambiente_virtual/Scripts/Activate
         ```
     A visualização no terminal onde você digitou os comandos deverá se parecer com o seguinte.
 
     ```zsh
-        (nome_do_ambiente_virtual) ~/user/user_api(main) > 
+    (nome_do_ambiente_virtual) ~/user/user_api(main):
     ``` 
 
 3. Instale as dependencias do projeto.
     > execute o seguinte comando
-    ```
-        $ pip install -r requirements.txt
+    ```zsh
+    pip install -r requirements.txt
     ```
 4. Execute a aplicação em sua maquina.
 
-    ```
-        python3 run.py
+    ```zsh
+    python3 run.py
     ```
 
 Agora voce pode modificar e testar a aplicação do projeto normalmente.

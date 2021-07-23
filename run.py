@@ -1,3 +1,12 @@
+'''
+Descricao :
+	Arquivo responsavel pela execução da aplicação
+Aluno :
+	Fabiano Amaral Alves
+Data :
+	22 / 07 / 2021
+'''
+
 import os
 
 from user_api import app
